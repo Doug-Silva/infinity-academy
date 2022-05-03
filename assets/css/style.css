@@ -27,3 +27,12 @@ header {
     height: 7vh;
     background-color: rgba(22, 22, 22, 0.2);
 }
+
+.menu-content {
+    text-transform: uppercase;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.8rem;
+}
