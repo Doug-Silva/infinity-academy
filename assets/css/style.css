@@ -36,3 +36,9 @@ header {
     align-items: center;
     font-size: 1.8rem;
 }
+
+.Logo {
+    font-size: 1.8rem;
+    letter-spacing: 0.4rem;
+    cursor: pointer;
+}
