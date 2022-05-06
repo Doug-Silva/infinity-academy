@@ -67,3 +67,7 @@ header {
     background-color: rgb(251, 255, 0);
     transition: all 1.5s ease;
 }
+
+.menu-content .list-itens a:hover:before {
+    width: 100%;
+}
