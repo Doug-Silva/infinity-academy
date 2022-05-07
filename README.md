@@ -14,7 +14,7 @@
 
   <!--Adicionar imagem/gif do projeto aqui-->
   <div style="width:30%">
-    <a href='#voltar-topo'><img src="./assets/img/tela-inicio-projeto.gif" style="width:100%" alt="Imagem do projeto"></a>   
+    <a href='#voltar-topo'><img src="./assets/img/tela-inicio-projeto.jpg" style="width:100%" alt="Imagem do projeto"></a>   
   </div><hr>
 </div>
 

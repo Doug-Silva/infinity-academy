@@ -10,7 +10,7 @@ html {
     width: 100vw;
     height: 100vh;
     font-size: 62.5%;
-    color: #000;
+    color: #fff;
     font-family: 'Lato', sans-serif;
 }
 
@@ -37,7 +37,7 @@ header {
     font-size: 1.8rem;
 }
 
-.Logo {
+.logo {
     font-size: 1.8rem;
     letter-spacing: 0.4rem;
     cursor: pointer;
@@ -58,16 +58,87 @@ header {
 }
 
 .menu-content .list-itens a:before {
-    content: '';
+    content: ' ';
     position: absolute;
     bottom: 0px;
     left: 0px;
     width: 0px;
     height: 1px;
-    background-color: rgb(251, 255, 0);
+    background-color: rgb(0, 238, 255);
     transition: all 1.5s ease;
 }
 
 .menu-content .list-itens a:hover:before {
+    width: 100%;
+}
+
+main {
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.primary-text {
+    width: 850px;
+    font-size: 5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.second-text {
+    margin-bottom: 7rem;
+    font-size: 2rem;
+    color: rgb(165, 165, 165);
+    text-transform: uppercase;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btns button {
+    width: 250px;
+    height: 60px;
+    cursor: pointer;
+    border: 1px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: transparent;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    border-radius: 20px;
+    position: relative;
+    transition: 1.5s;
+}
+
+.btns button:hover {
+    color: rgb(0, 238, 255);
+    border: none;
+}
+
+.btns button:before {
+    content: ' ';
+    border-radius: 20px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 0;
+    height: 60px;
+    background-color: rgb(61, 61, 61);
+    z-index: -1;
+    transition: 1s;
+}
+
+.btns button:hover:before {
     width: 100%;
 }
