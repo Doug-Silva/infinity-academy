@@ -9,7 +9,7 @@
   <p>Criação de uma Landing page para uma academia, projeto desenvolvido em HTML/CSS</p>
 
   <div>
-    <a href="https://github.com/Doug-Silva/infinity-academy/blob/main/LICENSE"><img src="https://img.shields.io/npm/l/react" alt="License MIT"></a>
+    <a href="https://github.com/Doug-Silva/infinity-academy/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green" alt="License MIT"></a>
   </div><br>
 
   <!--Adicionar imagem/gif do projeto aqui-->
